@@ -42,7 +42,7 @@ def scrape_flipkart_mobiles():
     for page_num in range(1, 10):
       
         url = base_url + str(page_num)
-        e
+        
         soup = get_mobile_data(url)
         
         if soup:
